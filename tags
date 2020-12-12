@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+BubbleSort	bubble_sort.py	/^def BubbleSort(num):$/;"	f
+a	bubble_sort.py	/^    a = bubble_sort(list)$/;"	l	function:bubble_sort	file:
+a	bubble_sort.py	/^a = [1, 8, 9, 10, 34, 3, 5, 78, 24, 677, 10, 4]$/;"	v
+a	bubble_sort.py	/^a = bubble_sort(list)$/;"	v
+arr	bubble_sort.py	/^    arr = list(range(10))$/;"	v
+arr	quick_sort.py	/^    arr = list(range(10))$/;"	v
+babble_sort	bubble_sort.py	/^def babble_sort(arr):$/;"	f
+bubble_sort	bubble_sort.py	/^def bubble_sort(array)$/;"	f
+bubble_sort	bubble_sort.py	/^def bubble_sort(array):$/;"	f
+dst	bubble_sort.py	/^    dst = babble_sort(src)$/;"	v
+dst	quick_sort.py	/^    dst = quick_sort(src)$/;"	v
+left	quick_sort.py	/^    left, right = 0, len(arr) - 1$/;"	l	function:quick_sort	file:
+length	bubble_sort.py	/^    length = len(arr)$/;"	l	function:babble_sort	file:
+list	bubble_sort.py	/^list = [1, 8, 9, 10, 34, 3, 5, 78, 24, 677, 10, 4]$/;"	v
+list	bubble_sort.py	/^list = [1,8,9,10,34,3,5,78,24,677,10,4]$/;"	v
+n	bubble_sort.py	/^    n = len(array)$/;"	l	function:bubble_sort	file:
+n	bubble_sort.py	/^n = len(array)$/;"	v
+pivot	quick_sort.py	/^    pivot = math.floor(len(arr)\/2)$/;"	l	function:quick_sort	file:
+pivot_height	quick_sort.py	/^    pivot_height = arr[pivot]$/;"	l	function:quick_sort	file:
+quick_sort	quick_sort.py	/^def quick_sort(arr):$/;"	f
+right	quick_sort.py	/^    left, right = 0, len(arr) - 1$/;"	l	function:quick_sort	file:
+src	bubble_sort.py	/^    src = random.sample(arr, len(arr))$/;"	v
+src	quick_sort.py	/^    src = random.sample(arr, len(arr))$/;"	v
+tmp	bubble_sort.py	/^                tmp = array[j]$/;"	l	function:bubble_sort	file:
