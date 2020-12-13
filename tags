@@ -5,27 +5,197 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	//
+A	counting_sort.py	/^A = [random.randint(1, 10) for _ in range(15)]$/;"	v
+A	counting_sort.py	/^A = [random.randint(1,10) for _ in range(15)]$/;"	v
+A	merge_sort.py	/^A = [ i+1 for i in range(10)]$/;"	v
+A	merge_sort.py	/^A = [i+1 for i in range(10)]$/;"	v
+A	sort/counting_sort.py	/^A = [random.randint(1, 10) for _ in range(15)]$/;"	v
+A	sort/merge_sort.py	/^A = [i+1 for i in range(10)]$/;"	v
 BubbleSort	bubble_sort.py	/^def BubbleSort(num):$/;"	f
+L	merge_sort.py	/^    L = A[left:mid]$/;"	l	function:merge	file:
+L	sort/merge_sort.py	/^    L = A[left:mid]$/;"	l	function:merge	file:
+N	dfs.py	/^N = int(input())$/;"	v
+R	merge_sort.py	/^    R = A[mid:right]$/;"	l	function:merge	file:
+R	sort/merge_sort.py	/^    R = A[mid:right]$/;"	l	function:merge	file:
+a	bfs.py	/^    a, b = [int(x) for x in input().split()]$/;"	v
 a	bubble_sort.py	/^    a = bubble_sort(list)$/;"	l	function:bubble_sort	file:
 a	bubble_sort.py	/^a = [1, 8, 9, 10, 34, 3, 5, 78, 24, 677, 10, 4]$/;"	v
 a	bubble_sort.py	/^a = bubble_sort(list)$/;"	v
+algorithm	README.md	/^# algorithm$/;"	c
+ans	dfs.py	/^        ans = dfs(i + 1)$/;"	v
 arr	bubble_sort.py	/^    arr = list(range(10))$/;"	v
 arr	quick_sort.py	/^    arr = list(range(10))$/;"	v
+arr	sort/bubble_sort.py	/^    arr = list(range(10))$/;"	v
+arr	sort/quick_sort.py	/^    arr = list(range(10))$/;"	v
+array	heap_sort.py	/^    array = [1, 2, 3, 4, 5, 3, 2, 1, 4, 3, 4, 5, 0]$/;"	v
+array	heap_sort.py	/^    array = [1,2,3,4,5,3,2,1,4,3,4,5,0]$/;"	v
+array	insertion_sort.py	/^    array = [1,2,3,4,5,3,2,1,4,3,4,5,0]$/;"	v
+array	selection_sort.py	/^    array = [1,2,3,4,5,3,2,1,4,3,4,5,0]$/;"	v
+array	sort/heap_sort.py	/^    array = [1, 2, 3, 4, 5, 3, 2, 1, 4, 3, 4, 5, 0]$/;"	v
+array	sort/insertion_sort.py	/^    array = [1,2,3,4,5,3,2,1,4,3,4,5,0]$/;"	v
+array	sort/selection_sort.py	/^    array = [1,2,3,4,5,3,2,1,4,3,4,5,0]$/;"	v
+arrive_time	dfs.py	/^arrive_time = [-1] * (N + 1)  # 到着時刻$/;"	v
+b	bfs.py	/^    a, b = [int(x) for x in input().split()]$/;"	v
 babble_sort	bubble_sort.py	/^def babble_sort(arr):$/;"	f
+babble_sort	sort/bubble_sort.py	/^def babble_sort(arr):$/;"	f
+bfs	bfs.py	/^def bfs(u):$/;"	f
+binary_search	binary_search.py	/^def binary_search(list, item):$/;"	f
 bubble_sort	bubble_sort.py	/^def bubble_sort(array)$/;"	f
 bubble_sort	bubble_sort.py	/^def bubble_sort(array):$/;"	f
+child	heap_sort.py	/^        child = 2 * parent + 1  # array[n]の子要素$/;"	l	function:downheap	file:
+child	heap_sort.py	/^        child = 2 * parent + 1 # array[n]の子要素$/;"	l	function:downheap	file:
+child	sort/heap_sort.py	/^        child = 2 * parent + 1  # array[n]の子要素$/;"	l	function:downheap	file:
+count	radix_sort.py	/^        count = [0 for _ in range(size+1)]$/;"	l	function:radix_sort	file:
+count	sort/radix_sort.py	/^        count = [0 for _ in range(size+1)]$/;"	l	function:radix_sort	file:
+count_list	counting_sort.py	/^    count_list = [0]*(max_num+1)$/;"	l	function:counting_sort	file:
+count_list	sort/counting_sort.py	/^    count_list = [0]*(max_num+1)$/;"	l	function:counting_sort	file:
+counting_sort	counting_sort.py	/^def counting_sort(A, max_num):$/;"	f
+counting_sort	sort/counting_sort.py	/^def counting_sort(A, max_num):$/;"	f
+d	bfs.py	/^    d = [None] * n  # uからの距離の初期化$/;"	l	function:bfs	file:
+d	bfs.py	/^d = bfs(0)$/;"	v
+dfs	dfs.py	/^def dfs(v):$/;"	f
+downheap	heap_sort.py	/^def downheap(array, n):$/;"	f
+downheap	sort/heap_sort.py	/^def downheap(array, n):$/;"	f
 dst	bubble_sort.py	/^    dst = babble_sort(src)$/;"	v
 dst	quick_sort.py	/^    dst = quick_sort(src)$/;"	v
+dst	sort/bubble_sort.py	/^    dst = babble_sort(src)$/;"	v
+dst	sort/quick_sort.py	/^    dst = quick_sort(src)$/;"	v
+g	bfs.py	/^g = [[] for _ in range(n)]  # 隣接リスト$/;"	v
+graph	dfs.py	/^graph = [deque([]) for _ in range(N + 1)]$/;"	v
+guess	binary_search.py	/^        guess = list[mid]$/;"	l	function:binary_search	file:
+h	shell_sort.py	/^        h = h * 3 + 1$/;"	l	function:shell_sort	file:
+h	shell_sort.py	/^        h = int(h \/ 3)$/;"	l	function:shell_sort	file:
+h	shell_sort.py	/^    h = 1$/;"	l	function:shell_sort	file:
+heap_sort	heap_sort.py	/^def heap_sort(array):$/;"	f
+heap_sort	sort/heap_sort.py	/^def heap_sort(array):$/;"	f
+high	binary_search.py	/^            high = mid - 1$/;"	l	function:binary_search	file:
+high	binary_search.py	/^    high = len(list) - 1$/;"	l	function:binary_search	file:
+i	counting_sort.py	/^    i = 0$/;"	l	function:counting_sort	file:
+i	heap_sort.py	/^    i = 0$/;"	l	function:heap_sort	file:
+i	sort/counting_sort.py	/^    i = 0$/;"	l	function:counting_sort	file:
+i	sort/heap_sort.py	/^    i = 0$/;"	l	function:heap_sort	file:
+index	linear_search.py	/^    index = 0$/;"	l	function:linear_search	file:
+input	bfs.py	/^input = sys.stdin.readline$/;"	v
+input	dfs.py	/^input = sys.stdin.readline$/;"	v
+insertion_sort	insertion_sort.py	/^def insertion_sort(array):$/;"	f
+insertion_sort	sort/insertion_sort.py	/^def insertion_sort(array):$/;"	f
+isPrime	isPrime.py	/^def isPrime(n):$/;"	f
+isPrime	isPrime1.py	/^def isPrime(n):$/;"	f
+isPrime	isPrime2.py	/^def isPrime(n):$/;"	f
+isPrime	isPrime3.py	/^def isPrime(n):$/;"	f
+isPrime	sort/isPrime.py	/^def isPrime(n):$/;"	f
+isPrime	sort/isPrime1.py	/^def isPrime(n):$/;"	f
+isPrime	sort/isPrime2.py	/^def isPrime(n):$/;"	f
+isPrime	sort/isPrime3.py	/^def isPrime(n):$/;"	f
+j	insertion_sort.py	/^            j = i$/;"	l	function:insertion_sort	file:
+j	shell_sort.py	/^            j = i$/;"	l	function:shell_sort	file:
+j	sort/insertion_sort.py	/^            j = i$/;"	l	function:insertion_sort	file:
 left	quick_sort.py	/^    left, right = 0, len(arr) - 1$/;"	l	function:quick_sort	file:
+left	sort/quick_sort.py	/^    left, right = 0, len(arr) - 1$/;"	l	function:quick_sort	file:
 length	bubble_sort.py	/^    length = len(arr)$/;"	l	function:babble_sort	file:
+length	radix_sort.py	/^    length = len(lst)$/;"	l	function:radix_sort	file:
+length	shell_sort.py	/^    length = len(lst)$/;"	l	function:shell_sort	file:
+length	sort/bubble_sort.py	/^    length = len(arr)$/;"	l	function:babble_sort	file:
+length	sort/radix_sort.py	/^    length = len(lst)$/;"	l	function:radix_sort	file:
+linear_search	linear_search.py	/^def linear_search(sequence, target):$/;"	f
 list	bubble_sort.py	/^list = [1, 8, 9, 10, 34, 3, 5, 78, 24, 677, 10, 4]$/;"	v
 list	bubble_sort.py	/^list = [1,8,9,10,34,3,5,78,24,677,10,4]$/;"	v
+low	binary_search.py	/^    low = 0$/;"	l	function:binary_search	file:
+lst	radix_sort.py	/^    lst = pickle.load(f)$/;"	v
+lst	shell_sort.py	/^    lst = pickle.load(f)$/;"	v
+lst	shell_sort.py	/^lst = [20, 6, 55, 74, 3, 45, 13, 87, 46, 30]$/;"	v
+lst	shell_sort.py	/^lst = [20,6,55,74,3,45,13,87,46,30]$/;"	v
+lst	sort/radix_sort.py	/^    lst = pickle.load(f)$/;"	v
+m	bfs.py	/^n, m = [int(x) for x in input().split()]  # nは頂点の数、mは辺の数$/;"	v
+m	isPrime1.py	/^  m = math.floor(n \/ 2) + 1$/;"	l	function:isPrime	file:
+m	isPrime2.py	/^  m = math.floor(math.sqrt(n)) + 1$/;"	l	function:isPrime	file:
+m	isPrime3.py	/^  m = math.floor(math.sqrt(n))$/;"	l	function:isPrime	file:
+m	sort/isPrime1.py	/^  m = math.floor(n \/ 2) + 1$/;"	l	function:isPrime	file:
+m	sort/isPrime2.py	/^  m = math.floor(math.sqrt(n)) + 1$/;"	l	function:isPrime	file:
+m	sort/isPrime3.py	/^  m = math.floor(math.sqrt(n))$/;"	l	function:isPrime	file:
+mask	radix_sort.py	/^mask = 0xff$/;"	v
+mask	sort/radix_sort.py	/^mask = 0xff$/;"	v
+merge	merge_sort.py	/^def merge(A, left, mid, right):$/;"	f
+merge	sort/merge_sort.py	/^def merge(A, left, mid, right):$/;"	f
+mergesort	merge_sort.py	/^def mergesort(A, left, right):$/;"	f
+mergesort	sort/merge_sort.py	/^def mergesort(A, left, right):$/;"	f
+mid	binary_search.py	/^        mid = (low + high) \/\/ 2$/;"	l	function:binary_search	file:
+mid	merge_sort.py	/^        mid = (left + right)\/\/2$/;"	l	function:mergesort	file:
+mid	sort/merge_sort.py	/^        mid = (left + right)\/\/2$/;"	l	function:mergesort	file:
+min	selection_sort.py	/^                min = j$/;"	l	function:selection_sort	file:
+min	selection_sort.py	/^        min = i$/;"	l	function:selection_sort	file:
+min	sort/selection_sort.py	/^                min = j$/;"	l	function:selection_sort	file:
+min	sort/selection_sort.py	/^        min = i$/;"	l	function:selection_sort	file:
+my_list	binary_search.py	/^my_list = []$/;"	v
+n	bfs.py	/^n, m = [int(x) for x in input().split()]  # nは頂点の数、mは辺の数$/;"	v
 n	bubble_sort.py	/^    n = len(array)$/;"	l	function:bubble_sort	file:
 n	bubble_sort.py	/^n = len(array)$/;"	v
+n	heap_sort.py	/^            n = parent$/;"	l	function:upheap	file:
+n	heap_sort.py	/^    n = len(array)$/;"	l	function:heap_sort	file:
+n	insertion_sort.py	/^    n = len(array)$/;"	l	function:insertion_sort	file:
+n	isPrime.py	/^      n = int(input().strip())$/;"	v
+n	selection_sort.py	/^    n = len(array)$/;"	l	function:selection_sort	file:
+n	sort/heap_sort.py	/^            n = parent$/;"	l	function:upheap	file:
+n	sort/heap_sort.py	/^    n = len(array)$/;"	l	function:heap_sort	file:
+n	sort/insertion_sort.py	/^    n = len(array)$/;"	l	function:insertion_sort	file:
+n	sort/isPrime.py	/^      n = int(input().strip())$/;"	v
+n	sort/selection_sort.py	/^    n = len(array)$/;"	l	function:selection_sort	file:
+parent	heap_sort.py	/^            parent = child  # 交換後のインデックスを保持$/;"	l	function:downheap	file:
+parent	heap_sort.py	/^            parent = child; # 交換後のインデックスを保持$/;"	l	function:downheap	file:
+parent	heap_sort.py	/^        parent = int((n - 1) \/ 2)$/;"	l	function:upheap	file:
+parent	heap_sort.py	/^    parent = 0$/;"	l	function:downheap	file:
+parent	sort/heap_sort.py	/^            parent = child  # 交換後のインデックスを保持$/;"	l	function:downheap	file:
+parent	sort/heap_sort.py	/^        parent = int((n - 1) \/ 2)$/;"	l	function:upheap	file:
+parent	sort/heap_sort.py	/^    parent = 0$/;"	l	function:downheap	file:
 pivot	quick_sort.py	/^    pivot = math.floor(len(arr)\/2)$/;"	l	function:quick_sort	file:
+pivot	sort/quick_sort.py	/^    pivot = math.floor(len(arr)\/2)$/;"	l	function:quick_sort	file:
 pivot_height	quick_sort.py	/^    pivot_height = arr[pivot]$/;"	l	function:quick_sort	file:
+pivot_height	sort/quick_sort.py	/^    pivot_height = arr[pivot]$/;"	l	function:quick_sort	file:
+prime_numbers	isPrime3.py	/^prime_numbers = [.....]$/;"	v
+prime_numbers	sort/isPrime3.py	/^prime_numbers = [.....]$/;"	v
+queue	bfs.py	/^    queue = deque([u])$/;"	l	function:bfs	file:
 quick_sort	quick_sort.py	/^def quick_sort(arr):$/;"	f
+quick_sort	sort/quick_sort.py	/^def quick_sort(arr):$/;"	f
+radix_sort	radix_sort.py	/^def radix_sort(lst):$/;"	f
+radix_sort	sort/radix_sort.py	/^def radix_sort(lst):$/;"	f
+result	linear_search.py	/^result = linear_search(seq, target)$/;"	v
 right	quick_sort.py	/^    left, right = 0, len(arr) - 1$/;"	l	function:quick_sort	file:
+right	sort/quick_sort.py	/^    left, right = 0, len(arr) - 1$/;"	l	function:quick_sort	file:
+selection_sort	selection_sort.py	/^def selection_sort(array):$/;"	f
+selection_sort	sort/selection_sort.py	/^def selection_sort(array):$/;"	f
+seq	linear_search.py	/^seq = [0, 2, 4, 6, 8, 7, 5, 9, 1]$/;"	v
+shell_sort	shell_sort.py	/^def shell_sort(lst):$/;"	f
+size	linear_search.py	/^    size = len(sequence)$/;"	l	function:linear_search	file:
+size	radix_sort.py	/^size = 255$/;"	v
+size	sort/radix_sort.py	/^size = 255$/;"	v
 src	bubble_sort.py	/^    src = random.sample(arr, len(arr))$/;"	v
 src	quick_sort.py	/^    src = random.sample(arr, len(arr))$/;"	v
+src	sort/bubble_sort.py	/^    src = random.sample(arr, len(arr))$/;"	v
+src	sort/quick_sort.py	/^    src = random.sample(arr, len(arr))$/;"	v
+stack	dfs.py	/^    stack = [v]$/;"	l	function:dfs	file:
+start	radix_sort.py	/^start = time.time()$/;"	v
+start	shell_sort.py	/^start = time.time()$/;"	v
+start	sort/radix_sort.py	/^start = time.time()$/;"	v
+target	linear_search.py	/^target = 8$/;"	v
+temp	dfs.py	/^    temp = [j + 1, ans[j + 1]]$/;"	v
+time	dfs.py	/^time = 0$/;"	v
 tmp	bubble_sort.py	/^                tmp = array[j]$/;"	l	function:bubble_sort	file:
+tmp	heap_sort.py	/^            tmp = array[child]$/;"	l	function:downheap	file:
+tmp	heap_sort.py	/^            tmp = array[n]$/;"	l	function:upheap	file:
+tmp	heap_sort.py	/^        tmp = array[0]$/;"	l	function:heap_sort	file:
+tmp	insertion_sort.py	/^        tmp = array[i] # 挿入する値を退避$/;"	l	function:insertion_sort	file:
+tmp	radix_sort.py	/^    tmp = [None for _ in range(length)]$/;"	l	function:radix_sort	file:
+tmp	selection_sort.py	/^        tmp = array[min]$/;"	l	function:selection_sort	file:
+tmp	shell_sort.py	/^                tmp = lst[j]$/;"	l	function:shell_sort	file:
+tmp	sort/heap_sort.py	/^            tmp = array[child]$/;"	l	function:downheap	file:
+tmp	sort/heap_sort.py	/^            tmp = array[n]$/;"	l	function:upheap	file:
+tmp	sort/heap_sort.py	/^        tmp = array[0]$/;"	l	function:heap_sort	file:
+tmp	sort/insertion_sort.py	/^        tmp = array[i] # 挿入する値を退避$/;"	l	function:insertion_sort	file:
+tmp	sort/radix_sort.py	/^    tmp = [None for _ in range(length)]$/;"	l	function:radix_sort	file:
+tmp	sort/selection_sort.py	/^        tmp = array[min]$/;"	l	function:selection_sort	file:
+tower_of_hanoi	tower_of_hanoi.py	/^def tower_of_hanoi(n, from_stack, to_stack, tmp):$/;"	f
+upheap	heap_sort.py	/^def upheap(array, n):$/;"	f
+upheap	sort/heap_sort.py	/^def upheap(array, n):$/;"	f
+v	bfs.py	/^        v = queue.popleft()$/;"	l	function:bfs	file:
+v	dfs.py	/^        v = stack[-1]$/;"	l	function:dfs	file:
+w	dfs.py	/^            w = graph[v].popleft()$/;"	l	function:dfs	file:
